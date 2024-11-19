@@ -31,3 +31,34 @@ GCP provides 200+ services. This is the same infrastructure that power 8 service
   18. Asynchronous communications
   19. Private Network in Google cloud
 
+## Regions and zones
+
+
+a. Regions
+
+
+Imagine setting up data centers in different regions around the world, would that be easy? <br>
+Google provides 20+ regions around the world which are expanding every year. <br>
+This would be lead to: <br>
+  1. high availability as requests would be diverted to the nearest available region in case of unavailability due to any reason.
+  2. Low latency as nearest available data center could be used to serve user request
+  3. Global footprints, suppose a startup in Gurgaon wants to go global, it can be done easily by deploying the application in multiple regions.
+  4. Adhere to government
+
+<br> 
+b. Zones
+<br> 
+<br> 
+Zones allow us to achieve high availability in the same regions. Google cloud has at least 3 zones in the same region. This allows for increased availability and fault tolerance. <br>
+Each zone has one or more discrete clusters ( that are housed in data centers). Zones in a region are connected with low latency links. <br>
+<br>
+<br>
+
+
+| Region Code | Region                                | Zones | Zones List                  |
+|-------------|---------------------------------------|-------|-----------------------------|
+| us-west1    | The Dalles, Oregon, North America     | 3     | us-west1-a, us-west1-b, us-west1-c |
+
+
+
+
