@@ -1,64 +1,60 @@
-# Google Cloud Associate Cloud Engineer
+# **Google Cloud Associate Cloud Engineer**
 
-## Introduction
-GCP has 200+ services. This exam expects knowledge of 40+ services.
-Exam expects in-depth knowledge about these services.
-Exams test your decision making abilities like which services do you choose in which situation?
+## **Introduction**
+GCP offers **200+ services**, and this exam expects knowledge of **40+ services** in detail. It evaluates your decision-making abilities, such as selecting the appropriate service for specific situations.
 
-How about provisioning or renting resources when we need them and releasing them back when you do not need them?<br>
-This is called on demand provisioning. <br> 
-Here we are trading capital expense for variable expense. <br>
-GCP provides 200+ services. This is the same infrastructure that power 8 services with over 1 billion users: Gmail, Google Search, YouTube etc.
+Imagine provisioning or renting resources only when needed and releasing them when they’re no longer required.  
+This concept is called **on-demand provisioning**, where we trade **capital expense** for **variable expense**.  
 
-## Table of Content
-  1. Introduction to cloud and GCP
-  2. Understanding regions and zones
-  3. Understanding compute services 
-  4. Optimizing usage and cost
-  5. Command Line Utility 
-  6. Instance group
-  7. Load balancing
-  8. Managed services 
-  9. Compute Solution in google cloud 
-  10. Container orchestration and kubernetes
-  11. Google cloud function
-  12. Google cloud run
-  13. Encryption with cloud kms
-  14. Block and file storage in google cloud platform
-  15. Object storage
-  16. Authentication and authorization
-  17. Databases
-  18. Asynchronous communications
-  19. Private Network in Google cloud
+GCP provides over **200 services**, running on the same infrastructure that powers products with over **1 billion users** like Gmail, Google Search, and YouTube.
 
-## Regions and zones
+---
 
+## **Table of Content**
+1. Introduction to cloud and GCP  
+2. Understanding regions and zones  
+3. Understanding compute services  
+4. Optimizing usage and cost  
+5. Command Line Utility  
+6. Instance group  
+7. Load balancing  
+8. Managed services  
+9. Compute solution in Google Cloud  
+10. Container orchestration and Kubernetes  
+11. Google Cloud Function  
+12. Google Cloud Run  
+13. Encryption with Cloud KMS  
+14. Block and file storage in Google Cloud Platform  
+15. Object storage  
+16. Authentication and authorization  
+17. Databases  
+18. Asynchronous communications  
+19. Private Network in Google Cloud  
 
-a. Regions
+---
 
+## **Regions and Zones**
 
-Imagine setting up data centers in different regions around the world, would that be easy? <br>
-Google provides 20+ regions around the world which are expanding every year. <br>
-This would be lead to: <br>
-  1. high availability as requests would be diverted to the nearest available region in case of unavailability due to any reason.
-  2. Low latency as nearest available data center could be used to serve user request
-  3. Global footprints, suppose a startup in Gurgaon wants to go global, it can be done easily by deploying the application in multiple regions.
-  4. Adhere to government
+### **a. Regions**
+Imagine setting up data centers in different regions worldwide—this is made simple with **Google Cloud’s 20+ regions**, expanding annually.  
+Benefits include:  
+1. **High availability:** Requests are redirected to the nearest available region in case of unavailability.  
+2. **Low latency:** User requests are served by the nearest available data center.  
+3. **Global footprint:** For example, a startup in Gurgaon can easily go global by deploying its application in multiple regions.  
+4. **Adherence to government regulations.**
 
-<br> 
-b. Zones
-<br> 
-<br> 
-Zones allow us to achieve high availability in the same regions. Google cloud has at least 3 zones in the same region. This allows for increased availability and fault tolerance. <br>
-Each zone has one or more discrete clusters ( that are housed in data centers). Zones in a region are connected with low latency links. <br>
-<br>
-<br>
+---
 
+### **b. Zones**
+Zones allow for **high availability** within the same region.  
+- Google Cloud provides at least **3 zones per region**, ensuring **fault tolerance**.  
+- Each zone consists of one or more discrete clusters housed in data centers.  
+- Zones within a region are connected by **low-latency links**.
 
-| Region Code | Region                                | Zones | Zones List                  |
-|-------------|---------------------------------------|-------|-----------------------------|
+---
+
+### **Region and Zone Details**
+
+| Region Code | Region                                | Zones | Zones List                         |
+|-------------|---------------------------------------|-------|-------------------------------------|
 | us-west1    | The Dalles, Oregon, North America     | 3     | us-west1-a, us-west1-b, us-west1-c |
-
-
-
-
