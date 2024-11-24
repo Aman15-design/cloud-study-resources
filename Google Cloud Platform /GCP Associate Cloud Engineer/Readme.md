@@ -58,3 +58,75 @@ Zones allow for **high availability** within the same region.
 | Region Code | Region                                | Zones | Zones List                         |
 |-------------|---------------------------------------|-------|-------------------------------------|
 | us-west1    | The Dalles, Oregon, North America     | 3     | us-west1-a, us-west1-b, us-west1-c |
+
+
+---
+
+## **Google Compute Engine**
+
+Whenever we want to deploy applications, we need servers and whenever we want to deploy applications on cloud, we need virtual servers. That is what google compute engine enables us to provision.
+In corporate data centers, applications are deployed on physical servers.
+Where do we deploy applications in the cloud?
+1. Rent virtual servers.
+2. Virtual Machines - Virtual Servers in GCP.
+3. **Google Compute Engine (GCE)** - Provision and manage virtual machine.
+
+Google Compute Engine allows us to:
+
+1. Create and manage the lifecycle of Virtual Machine instances.
+2. Load balancing and auto-scaling for multiple VM instances.
+3. Attach storage to your VM instances.
+4. Manage network connectivity and configuration for your VM instances.
+
+### Create Instance
+
+### Steps to Create a New VM Instance:
+- Specify **names**, **labels**, and **regions**.
+- Choose machine configurations (hardware configurations), including **machine families** that suit your requirements.
+- Select an **operating system image**.
+- Configure the firewall based on your requirements.
+
+### Key Considerations for Hardware:
+When configuring hardware, we need to account for two main factors:  
+1. **Machine Family**  
+2. **Machine Type**
+
+### Compute Engine Machine Families:
+Different machine families are available based on varying requirements:
+
+1. **General Purpose (E2, N2, N2D, N1):**
+   - Best in terms of price-performance ratio.
+   - Suitable for:
+     - Web and application servers.
+     - Small-to-medium databases.
+     - Development environments.
+
+2. **Memory Optimized (M2, M1):**
+   - Ultra high memory workloads.
+   - Suitable for:
+     - Large in-memory databases.
+     - In-memory analytics.
+
+3. **Compute Optimized (C2):**
+   - Compute-intensive workloads.
+   - Suitable for:
+     - Gaming applications.
+
+### Choosing Machine Types:
+After selecting the machine family, the next step is to choose the specific **machine type** based on your workload.
+
+![Google Compute Engine Machine Types]([https://raw.githubusercontent.com/username/repo-name/branch-name/path-to-image/image.png](https://github.com/Aman15-design/cloud-study-resources/blob/0d69d589a8f4dd218cf63ba194b06bcd950763cb/Google%20Cloud%20Platform%20/Resources/Google-Compute-Engine-Machine-Types.JPG) "Google Compute Engine Machine Types")
+
+
+### Image
+**What operating system and software do you want on the instance?**  
+
+#### Types of Images:
+1. **Public Images**:
+   - Provided and maintained by Google, open-source communities, or third-party vendors.
+   
+2. **Custom Images**:
+   - Created by you for your specific project.
+
+
+
