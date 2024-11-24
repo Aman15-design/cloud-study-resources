@@ -115,7 +115,7 @@ Different machine families are available based on varying requirements:
 ### Choosing Machine Types:
 After selecting the machine family, the next step is to choose the specific **machine type** based on your workload.
 
-![Google Compute Engine Machine Types]([https://raw.githubusercontent.com/username/repo-name/branch-name/path-to-image/image.png](https://github.com/Aman15-design/cloud-study-resources/blob/0d69d589a8f4dd218cf63ba194b06bcd950763cb/Google%20Cloud%20Platform%20/Resources/Google-Compute-Engine-Machine-Types.JPG) "Google Compute Engine Machine Types")
+![Google Compute Engine Machine Types](https://github.com/Aman15-design/cloud-study-resources/blob/0d69d589a8f4dd218cf63ba194b06bcd950763cb/Google%20Cloud%20Platform%20/Resources/Google-Compute-Engine-Machine-Types.JPG "Google Compute Engine Machine Types")
 
 
 ### Image
